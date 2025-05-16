@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to EazyBank accounts related cloud monitor  prod apis - webhook "
+  message: "Welcome to EazyBank accounts related cloud monitor  prod apis - webhook-2 "
   contactDetails:
     name: "Reine Aishwarya - Product Owner"
     email: "{cipher}56ab1ada3bb016cec90e7082a4eb9c10ad6f48d61e21863e03af54bd76ea61ea66b962a4d29b7e2dd5afb6c9a67fc7ee"
