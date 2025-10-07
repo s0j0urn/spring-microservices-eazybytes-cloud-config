@@ -1,15 +1,21 @@
 spring:
   application:
     name: eurekaserver
+    # Name of the Spring Boot application (used for service discovery and logging)
 
 server:
   port: 8070
+  # Port on which the Eureka server will run
 
 eureka:
   instance:
     hostname: localhost
+    # Hostname for the Eureka server instance
   client:
     register-with-eureka: false
+    # If false, this server will not register itself as a client with Eureka
     fetch-registry: false
+    # If false, this server will not fetch registry from other Eureka servers
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}}/eureka/
+      # Eureka server URL for clients to register with; here, it points to itself
